@@ -1,0 +1,63 @@
+@import url(_jarvis.css);
+@import url(_reset.css);
+
+.cabecalho {
+	font-family: var(--familia-titulo-destaque);
+	text-align: center;
+	background-color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+	
+}
+
+#logotipo {
+
+	font-family: var(--familia-titulo-destaque);
+	color: var(--branco);
+	font-size: var(--tamanho-titulo-destaque);
+	font-weight: var(--peso-titulo-destaque);
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#logoJ {
+
+	width: 250px;
+	height: 200px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+nav {
+	position: relative;
+}
+
+.item {
+	display: inline;
+	text-align: center;
+	margin: 0 0 0 25px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.botao {
+	border-radius: 5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: blueviolet;
+	color: #fff;
+}
+
+#botao {
+
+	border-radius: 5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: blueviolet;
+	color: #fff;
+}
