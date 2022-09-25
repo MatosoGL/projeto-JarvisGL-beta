@@ -548,8 +548,7 @@ function fazBotao(desejo) {
             var ifBotao = document.createElement('button');
             
             var txtBotao = prompt('qual texto você deseja adicionar no botão?');
-            var textoBotao = document.createTextNode(txtBotao);
-            ifBotao.title = textoBotao;
+            ifBotao.title = txtBotao;
 
             var desejaLink = prompt('você deseja adicionar um link nesse botão?');
             var linkBotao = prompt('coloque aqui o link desejado como destino deste botão');
