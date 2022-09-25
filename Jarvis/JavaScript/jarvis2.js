@@ -713,7 +713,6 @@ texto(pedido);
 addImg(pedido);
 fazBotao(pedido);
 criaCanvas(pedido);
-testMusica();
 adicional();
 
 
