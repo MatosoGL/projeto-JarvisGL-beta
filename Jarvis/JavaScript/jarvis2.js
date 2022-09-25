@@ -670,14 +670,6 @@ function criaCanvas(desejo) {
     }
 }
 
-function testMusica() {
-    const musica = new Audio('Músicas/Awaken.mp3');
-    musica.play();
-    musica.loop = true;
-    musica.playbackRate = 2;
-    musica.pause();
-}
-
 function adicional() {
 
     let pedido2 = prompt('Deseja mais alguma coisa?');
