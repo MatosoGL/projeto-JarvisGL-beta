@@ -207,7 +207,7 @@
             if (escolhaCor === especificação.escolhaElement[0]) {
                 var corFundo = prompt('qual a cor de fundo desejada?');
     
-                corMuda(corFundo, fundoTela);
+                corMuda(corFundo, fundoTela, style, backgroundColor);
                 if (corFundo === especificação.cor[21] ||
                     corFundo === especificação.cor[22]
                     || corFundo === especificação.cor[23]
@@ -233,7 +233,7 @@
                 || escolhaCor === especificação.escolhaElement[2]) {
                 
                     var corFundo = prompt('qual a cor do cabeçalho desejada?');
-                    corMuda(corFundo, cabecalho);
+                    corMuda(corFundo, cabecalho, style, backgroundColor);
                 }
                 if (escolhaCor === especificação.escolhaElement[3]
                     || escolhaCor === especificação.escolhaElement[4]) {
@@ -257,7 +257,7 @@
             divsoria.appendChild(teste2);
     
             let corTexto = prompt('qual a cor desejada no texto?');
-            colorMuda(corTexto, teste2);
+            colorMuda(corTexto, teste2, style, color);
            
         }
     }
@@ -313,16 +313,16 @@
     function corBotao(nomeBotao) {
         
             var corFundoBotao = prompt('qual a cor do botão desejada?');
-            corMuda(corFundoBotao, nomeBotao);
+            corMuda(corFundoBotao, nomeBotao, style, backgroundColor);
                 
             var corTextoBotao = prompt('qual cor do texto do botão você deseja?');
-            colorMuda(corTextoBotao, nomeBotao);
+            colorMuda(corTextoBotao, nomeBotao, style, color);
     }
     
     function criaCirculo(element, x, y, raio, ang1, ang2, variavel) {
         
         //element.fillStyle = variavel;
-        corMudaCanvas(variavel, element);
+        corMuda(variavel, element, fillStyle);
         element.beginPath();
         element.arc(x, y, raio, ang1, ang2 * Math.PI);
         element.fill();
