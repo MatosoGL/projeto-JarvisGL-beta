@@ -20,3 +20,4 @@ Elemento|Pergunta|Possíveis respostas
 ---|---|---
 Mudar cor de fundo, cabeçalho ou botão|Escolha um elemento|fundo, cabeçalho, botão
 Mudar cor de fundo, cabeçalho ou botão|Qual a cor desejada?|'azul', 'verde', 'vermelho','cinza', 'preto', 'laranja', 'rosa','roxo', 'ciano', 'turquesa','amarelo', 'violeta', 'vinho', 'marrom', 'salmão', 'salmao', 'magenta', 'chocolate', 'lima', 'limão', 'limao', 'azul,claro','azul escuro', 'azul marinho', 'verde claro', 'verde escuro','verde forte', 'rosa claro', 'rosa escuro', 'rosa shock', 'salmao claro', 'salmão,claro', 'vermelho claro', 'vermelho escuro', 'cinza claro', 'branco'
+Adicionar Texto| Qual o texto desejado?|_Digite o texto que deseja adicionar_
