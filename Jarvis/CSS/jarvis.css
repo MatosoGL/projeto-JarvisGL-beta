@@ -1,5 +1,4 @@
 @import url(_jarvis.css);
-@import url(_reset.css);
 
 .cabecalho {
 	font-family: var(--familia-titulo-destaque);
