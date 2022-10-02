@@ -1,5 +1,5 @@
-@import url(.../CSS/_jarvis.css);
-@import url(.../CSS/_reset.css);
+@import url(_jarvis.css2);
+@import url(_reset.css2);
 @font-face {
     font-family: 'icones';
     src: url(.../fontes/icones.ttf);
