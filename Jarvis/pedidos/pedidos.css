@@ -1,64 +1,54 @@
-@import url(_jarvis.css);
-@import url(_reset.css);
+@import url(.../CSS/_jarvis.css);
+@import url(.../CSS/_reset.css);
 @font-face {
     font-family: 'icones';
     src: url(.../fontes/icones.ttf);
 }
 
+.cabecalho {
+	font-family: var(--familia-titulo-destaque);
+	text-align: center;
+	background-color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+	
+}
 
-.logotipo {
+#logotipo {
 
 	font-family: var(--familia-titulo-destaque);
-	color: var(--azul);
+	color: var(--branco);
 	font-size: var(--tamanho-titulo-destaque);
 	font-weight: var(--peso-titulo-destaque);
 	text-align: left;
 	padding-left: 30px;
-	padding-top: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-.cabecalho {
+#logoJ {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    box-sizing: border-box;
-
-    width: 100%;
-    padding-top: .75rem;
-    padding-bottom: .75rem; 
+	width: 250px;
+	height: 200px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-.menu-lateral {
-
-    transition: .25s;
-    display: flex;
-    flex-direction: column;
-    width: 75vw;
-    height: 100vh;
-
-    position: absolute;
-    left: -100vw;
+nav {
+	position: relative;
 }
 
-.menu-lateral--ativo {
-
-    left: 0;
-    transition: .25s;
+.item {
+	display: inline;
+	text-align: center;
+	margin: 0 0 0 25px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
 }
 
-.cabecalho__menu i::before {
-
-    content: "\e905";
-    font-size: 24px;
-}
-
-.menu {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    box-sizing: border-box;
+table tr {
+	display: inline;
 }
