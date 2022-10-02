@@ -61,3 +61,7 @@ nav {
 	background-color: blueviolet;
 	color: #fff;
 }
+
+tr {
+	display: inline;
+}
