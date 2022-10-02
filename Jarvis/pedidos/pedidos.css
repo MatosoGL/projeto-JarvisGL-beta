@@ -12,7 +12,7 @@
 
 #logotipo {
 
-	font-family: var(--familia-titulo-destaque);
+	font-family: var(--tamanho-titulo-destaque);
 	color: var(--preto);
 	font-size: var(--tamanho-titulo-destaque);
 	font-weight: var(--peso-titulo-destaque);
@@ -49,6 +49,6 @@ nav {
 }
 
 p {
-    font-size: var(--tamanho-corpo);
+    font-size: 15px;
     color: var(--preto);
 }
