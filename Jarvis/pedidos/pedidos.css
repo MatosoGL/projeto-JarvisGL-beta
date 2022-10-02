@@ -13,13 +13,10 @@
 #logotipo {
 
 	font-family: var(--familia-titulo-destaque);
-	color: var(--branco);
+	color: var(--preto);
 	font-size: var(--tamanho-titulo-destaque);
 	font-weight: var(--peso-titulo-destaque);
-	text-align: left;
-	padding-left: 30px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	text-align: center;
 }
 
 #logoJ {
@@ -43,8 +40,4 @@ nav {
 	font-size: 18px;
 	font-weight: bold;
 	text-decoration: none;
-}
-
-.tabela {
-    
 }
