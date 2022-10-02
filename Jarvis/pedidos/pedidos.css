@@ -36,8 +36,19 @@ nav {
 	display: inline;
 	text-align: center;
 	margin: 0 0 0 25px;
-	color: #000;
+	color: var(--preto);
 	font-size: 18px;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+.titulo {
+    font-family: var(--tamanho-titulo-destaque);
+    font-size: var(--tamanho-titulo);
+    color: var(--preto);
+}
+
+p {
+    font-size: var(--tamanho-corpo);
+    color: var(--preto);
 }
