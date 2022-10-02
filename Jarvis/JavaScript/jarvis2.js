@@ -455,7 +455,8 @@ function mudaFundo(desejo) {
         || desejo === especificação.mudarCor[7]
         || desejo === especificação.mudarCor[8]) {
         let escolhaCor = prompt('você deseja mudar a cor de fundo, cabecalho ou do botão?');
-
+        let corOuImg = prompt('Gostaria de mudar a cor ou colocar uma imagem de fundo?');
+       if(corOuImg === 'cor') {
         if (escolhaCor === especificação.escolhaElement[0]) {
             var corFundo = prompt('qual a cor de fundo desejada?');
 
@@ -491,7 +492,14 @@ function mudaFundo(desejo) {
                 || escolhaCor === especificação.escolhaElement[4]) {
             
                     corBotao(botaoMenu);
-
+        }}
+        if (corOuImg === especificação.imagem[0]) {
+            let imgLinkFundo = prompt('coloque o link da imagem desejada');
+            let imgFundo = createElement('img');
+            imgFundo.href = imgLinkFundo;
+            imgFundo.id = imgFundoCss;
+            fundoTela.style.background = imgLinkFundo;
+            
         }
     }
 }
