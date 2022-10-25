@@ -682,10 +682,11 @@ function criaTabela() {
         nColunas(colunaTab);
 
         function nColunas(numero) {
-    
+            var tab = createElement('table')
             var tHeadTab =  createElement('thead');
             var trTab = createElement('tr');
            
+            tab.appendChild(tHeadTab);
             tHeadTab.appendChild(trTab);
             
 
