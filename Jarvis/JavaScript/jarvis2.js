@@ -687,6 +687,7 @@ function criaTabela() {
             var trTab = createElement('tr');
            
             tab.appendChild(tHeadTab);
+            tab.border = '1';
             tHeadTab.appendChild(trTab);
             
 
