@@ -672,6 +672,24 @@ function criaCanvas(desejo) {
     }
 }
 
+function nColunas(tabela, numero) {
+    
+  var tHeadTab =  createElement('thead');
+  var trTab = createElement('tr');
+  var thTab = createElement('th');
+    if(numero === 1) {
+        
+    }
+}
+
+function criaTabela() {
+
+    if (condition) {
+        var colunaTab = prompt('quantas colunas sua tabela terá?');
+
+    }
+}
+
 function adicional() {
 
     let pedido2 = prompt('Deseja mais alguma coisa?');
