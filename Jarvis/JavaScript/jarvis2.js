@@ -672,21 +672,95 @@ function criaCanvas(desejo) {
     }
 }
 
-function nColunas(tabela, numero) {
-    
-  var tHeadTab =  createElement('thead');
-  var trTab = createElement('tr');
-  var thTab = createElement('th');
-    if(numero === 1) {
-        
-    }
-}
+
 
 function criaTabela() {
 
     if (condition) {
         var colunaTab = prompt('quantas colunas sua tabela terá?');
 
+        function nColunas(numero) {
+    
+            var tHeadTab =  createElement('thead');
+            var trTab = createElement('tr');
+           
+              if(numero === 1) {
+            
+                var thTab = createElement('th');
+              }
+              if(numero === 2) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+            }
+            if(numero === 3) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+            }
+            if(numero === 4) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+                var thTab4 = createElement('th');
+            }
+            if(numero === 5) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+                var thTab4 = createElement('th');
+                var thTab5 = createElement('th');
+            }
+            if(numero === 6) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+                var thTab4 = createElement('th');
+                var thTab5 = createElement('th');
+                var thTab6 = createElement('th');
+            }
+            if(numero === 7) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+                var thTab4 = createElement('th');
+                var thTab5 = createElement('th');
+                var thTab6 = createElement('th');
+                var thTab7 = createElement('th');
+            }
+            if(numero === 8) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+                var thTab4 = createElement('th');
+                var thTab5 = createElement('th');
+                var thTab6 = createElement('th');
+                var thTab7 = createElement('th');
+                var thTab8 = createElement('th');
+            }
+            if(numero === 9) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+                var thTab4 = createElement('th');
+                var thTab5 = createElement('th');
+                var thTab6 = createElement('th');
+                var thTab7 = createElement('th');
+                var thTab8 = createElement('th');
+                var thTab9 = createElement('th');
+            }
+            if(numero === 10) {
+                var thTab = createElement('th');
+                var thTab2 = createElement('th');
+                var thTab3 = createElement('th');
+                var thTab4 = createElement('th');
+                var thTab5 = createElement('th');
+                var thTab6 = createElement('th');
+                var thTab7 = createElement('th');
+                var thTab8 = createElement('th');
+                var thTab9 = createElement('th');
+                var thTab10 = createElement('th');
+            }
+          }
     }
 }
 
