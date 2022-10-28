@@ -683,8 +683,6 @@ function criaTabela(desejo) {
         || desejo === especificação.tabela[3]) {
         var colunaTab = prompt('quantas colunas sua tabela terá?');
 
-        nColunas(colunaTab);
-
         function nColunas(numero) {
             var tab = createElement('table')
             var tHeadTab =  createElement('thead');
@@ -837,8 +835,8 @@ function criaTabela(desejo) {
                 trTab.appendChild(thTab10);
             }
            
-            nColunas(colunaTab);
           }
+          nColunas(colunaTab);
     }
 }
 
