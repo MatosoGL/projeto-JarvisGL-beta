@@ -850,7 +850,7 @@ function adicional() {
     addImg(pedido2);
     fazBotao(pedido2);
     criaCanvas(pedido2);
-    tabela(pedido2);
+    criaTabela(pedido2);
     if (pedido2 === especificação.afirmacoes[0]
         || pedido2 === especificação.afirmacoes[3]
         || pedido2 === especificação.afirmacoes[5]) {
@@ -861,7 +861,7 @@ function adicional() {
         addImg(pedido3);
         fazBotao(pedido3);
         criaCanvas(pedido3);
-        tabela(pedido3);
+        criaTabela(pedido3);
 
         while(pedido2 === especificação.afirmacoes[0]
             || pedido2 === especificação.afirmacoes[3]
@@ -879,7 +879,7 @@ texto(pedido);
 addImg(pedido);
 fazBotao(pedido);
 criaCanvas(pedido);
-tabela(pedido);
+criaTabela(pedido);
 adicional();
 
 
