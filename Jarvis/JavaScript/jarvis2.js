@@ -684,7 +684,7 @@ function criaTabela(desejo) {
         var colunaTab = prompt('quantas colunas sua tabela terá?');
 
         function nColunas(numero) {
-            var tab = createElement('table')
+            var tab = createElement('table');
             var tHeadTab =  createElement('thead');
             var trTab = createElement('tr');
            
