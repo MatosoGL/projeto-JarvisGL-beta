@@ -31,7 +31,8 @@ const especificação = {
         hexagono: ['hexagono']
     },
     criaBotao: ['fazer botão', 'fazer botao', 'criar botão',
-     'criar botao', 'botao', 'botão', 'eu quero um botão', 'eu quero um botao']
+     'criar botao', 'botao', 'botão', 'eu quero um botão', 'eu quero um botao'],
+    tabela: ['tabela', 'faz tabela', 'fazer tabela', 'fazer uma tabela']
 }
 
 var aviso = alert('AVISO! Responda a todas as perguntas do bot em minúsculo e com gramática correta, que o seu pedido seja realizado!');
@@ -674,9 +675,12 @@ function criaCanvas(desejo) {
 
 
 
-function criaTabela() {
+function criaTabela(desejo) {
 
-    if (condition) {
+    if (desejo === especificação.tabela[0] 
+        || desejo === especificação.tabela[1] 
+        || desejo === especificação.tabela[2] 
+        || desejo === especificação.tabela[3]) {
         var colunaTab = prompt('quantas colunas sua tabela terá?');
 
         nColunas(colunaTab);
