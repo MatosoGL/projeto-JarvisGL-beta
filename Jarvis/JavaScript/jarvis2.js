@@ -694,52 +694,61 @@ function criaTabela(desejo) {
             
 
               if(numero === 1) {
-            
+                
+                var trTab1 = createElement('tr');
                 var thTab = createElement('th');
                
-                trTab.appendChild(thTab);
+                trTab1.appendChild(thTab);
               }
               if(numero === 2) {
+                var trTab2 = createElement('tr');
                 var thTab = createElement('th');
-                var thTab2 = createElement('th');
+                var thTab = createElement('th');
                
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
+                trTab2.appendChild(thTab);
+                trTab2.appendChild(thTab2);
             }
             if(numero === 3) {
+                var trTab3 = createElement('tr');
                 var thTab = createElement('th');
-                var thTab2 = createElement('th');
-                var thTab3 = createElement('th');
+                var thTab = createElement('th');
+                var thTab = createElement('th');
 
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
+                trTab3.appendChild(thTab);
+                trTab3.appendChild(thTab2);
+                trTab3.appendChild(thTab3);
             }
             if(numero === 4) {
+               
+                var trTab4 = createElement('tr');
                 var thTab = createElement('th');
                 var thTab2 = createElement('th');
                 var thTab3 = createElement('th');
                 var thTab4 = createElement('th');
 
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
-                trTab.appendChild(thTab4);
+                trTab4.appendChild(thTab);
+                trTab4.appendChild(thTab2);
+                trTab4.appendChild(thTab3);
+                trTab4.appendChild(thTab4);
             }
             if(numero === 5) {
+                
+                var trTab5 = createElement('tr');
                 var thTab = createElement('th');
                 var thTab2 = createElement('th');
                 var thTab3 = createElement('th');
                 var thTab4 = createElement('th');
                 var thTab5 = createElement('th');
 
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
-                trTab.appendChild(thTab4);
-                trTab.appendChild(thTab5);
+                trTab5.appendChild(thTab);
+                trTab5.appendChild(thTab2);
+                trTab5.appendChild(thTab3);
+                trTab5.appendChild(thTab4);
+                trTab5.appendChild(thTab5);
             }
             if(numero === 6) {
+                
+                var trTab6 = createElement('tr');
                 var thTab = createElement('th');
                 var thTab2 = createElement('th');
                 var thTab3 = createElement('th');
@@ -747,14 +756,16 @@ function criaTabela(desejo) {
                 var thTab5 = createElement('th');
                 var thTab6 = createElement('th');
 
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
-                trTab.appendChild(thTab4);
-                trTab.appendChild(thTab5);
-                trTab.appendChild(thTab6);
+                trTab6.appendChild(thTab);
+                trTab6.appendChild(thTab2);
+                trTab6.appendChild(thTab3);
+                trTab6.appendChild(thTab4);
+                trTab6.appendChild(thTab5);
+                trTab6.appendChild(thTab6);
             }
             if(numero === 7) {
+                
+                var trTab7 = createElement('tr');
                 var thTab = createElement('th');
                 var thTab2 = createElement('th');
                 var thTab3 = createElement('th');
@@ -763,15 +774,17 @@ function criaTabela(desejo) {
                 var thTab6 = createElement('th');
                 var thTab7 = createElement('th');
 
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
-                trTab.appendChild(thTab4);
-                trTab.appendChild(thTab5);
-                trTab.appendChild(thTab6);
-                trTab.appendChild(thTab7);
+                trTab7.appendChild(thTab);
+                trTab7.appendChild(thTab2);
+                trTab7.appendChild(thTab3);
+                trTab7.appendChild(thTab4);
+                trTab7.appendChild(thTab5);
+                trTab7.appendChild(thTab6);
+                trTab7.appendChild(thTab7);
             }
             if(numero === 8) {
+                
+                var trTab8 = createElement('tr');
                 var thTab = createElement('th');
                 var thTab2 = createElement('th');
                 var thTab3 = createElement('th');
@@ -781,16 +794,18 @@ function criaTabela(desejo) {
                 var thTab7 = createElement('th');
                 var thTab8 = createElement('th');
                
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
-                trTab.appendChild(thTab4);
-                trTab.appendChild(thTab5);
-                trTab.appendChild(thTab6);
-                trTab.appendChild(thTab7);
-                trTab.appendChild(thTab8);
+                trTab8.appendChild(thTab);
+                trTab8.appendChild(thTab2);
+                trTab8.appendChild(thTab3);
+                trTab8.appendChild(thTab4);
+                trTab8.appendChild(thTab5);
+                trTab8.appendChild(thTab6);
+                trTab8.appendChild(thTab7);
+                trTab8.appendChild(thTab8);
             }
             if(numero === 9) {
+ 
+                var trTab9 = createElement('tr');
                 var thTab = createElement('th');
                 var thTab2 = createElement('th');
                 var thTab3 = createElement('th');
@@ -801,17 +816,19 @@ function criaTabela(desejo) {
                 var thTab8 = createElement('th');
                 var thTab9 = createElement('th');
 
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
-                trTab.appendChild(thTab4);
-                trTab.appendChild(thTab5);
-                trTab.appendChild(thTab6);
-                trTab.appendChild(thTab7);
-                trTab.appendChild(thTab8);
-                trTab.appendChild(thTab9);
+                trTab9.appendChild(thTab);
+                trTab9.appendChild(thTab2);
+                trTab9.appendChild(thTab3);
+                trTab9.appendChild(thTab4);
+                trTab9.appendChild(thTab5);
+                trTab9.appendChild(thTab6);
+                trTab9.appendChild(thTab7);
+                trTab9.appendChild(thTab8);
+                trTab9.appendChild(thTab9);
             }
             if(numero === 10) {
+                
+                var trTab10 = createElement('tr');
                 var thTab = createElement('th');
                 var thTab2 = createElement('th');
                 var thTab3 = createElement('th');
@@ -823,16 +840,16 @@ function criaTabela(desejo) {
                 var thTab9 = createElement('th');
                 var thTab10 = createElement('th');
 
-                trTab.appendChild(thTab);
-                trTab.appendChild(thTab2);
-                trTab.appendChild(thTab3);
-                trTab.appendChild(thTab4);
-                trTab.appendChild(thTab5);
-                trTab.appendChild(thTab6);
-                trTab.appendChild(thTab7);
-                trTab.appendChild(thTab8);
-                trTab.appendChild(thTab9);
-                trTab.appendChild(thTab10);
+                trTab10.appendChild(thTab);
+                trTab10.appendChild(thTab2);
+                trTab10.appendChild(thTab3);
+                trTab10.appendChild(thTab4);
+                trTab10.appendChild(thTab5);
+                trTab10.appendChild(thTab6);
+                trTab10.appendChild(thTab7);
+                trTab10.appendChild(thTab8);
+                trTab10.appendChild(thTab9);
+                trTab10.appendChild(thTab10);
             }
            
           }
